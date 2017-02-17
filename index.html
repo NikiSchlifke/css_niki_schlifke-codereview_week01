@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style/nav.css">
+    <link rel="stylesheet" type="text/css" href="style/side.css">
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <title>News Feed</title>
+</head>
+
+<body>
+    <!-- Top Navbar -->
+    <nav id="menu" class="navigation">
+        <ul>
+            <li class="menu--left">
+                <img src="static/avatar.png" alt="avatar">
+            </li>
+            <li class="menu--left">
+                <a href="html/settings.html" target="main--content">Settings</a>
+            </li>
+            <li class="menu--left">
+                <form action="search.php">
+                    <input type="text" name="search">
+                </form>
+            </li>
+            <li class="menu--center">
+                <a href="html/newsfeed.html" target="main--content">Your feed</a>
+            </li>
+            <li class="menu--right">
+                <a href="html/login.html" target="main--content">login as...</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Left navbar -->
+    <aside id="shortcuts" class="navigation">
+        <ul>
+        	<li><a href="html/newsfeed.html" target="main--content">Search</a></li>
+        	<li><a href="html/newsfeed.html" target="main--content">Favorites</a></li>
+        	<li><a href="html/newsfeed.html" target="main--content">Tags</a></li>
+        	<li><a href="html/newsfeed.html" target="main--content">Sources</a></li>
+        	<li><a href="html/newsfeed.html" target="main--content">Filtering</a></li>
+        </ul>
+    </aside>
+
+    <!-- Right navbar -->
+    <aside id="contacts" class="navigation">
+                <ul>
+        	<li><a href="html/messages.html" target="main--content">Hugo Hallo</a></li>
+        	<li><a href="html/messages.html" target="main--content">Tom Turbo</a></li>
+        	<li><a href="html/messages.html" target="main--content">Max Mustermann</a></li>
+        </ul>
+    </aside>
+        <main>
+        <iframe name="main--content" src="html/newsfeed.html" frameborder="0"></iframe>
+    </main>
+</body>
+
+</html>

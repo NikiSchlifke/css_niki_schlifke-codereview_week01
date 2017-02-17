@@ -1,0 +1,46 @@
+
+#shortcuts {
+/*position:relative;*/
+float: left;
+}
+#contacts {
+	position: 0 0;
+float: right;
+}
+
+
+
+aside {
+    font-size: 3.125vh;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+aside img {
+    height: 3.125vh;
+    margin: 1.5625vh 1.5625vh;
+}
+
+aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E9EBEE;
+}
+
+
+
+aside li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1.5625vh 1.5625vh;
+    text-decoration: none;
+    height: 100%;
+}
+
+/* Change the link color to #111 (black) on hover */
+aside li a:hover {
+    background-color: #F6F7F9;
+}
+

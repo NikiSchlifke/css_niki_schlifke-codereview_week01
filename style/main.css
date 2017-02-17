@@ -1,9 +1,39 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+.below {
+    height: 92vh;
+}
+
+#main--content {}
+
 main {
-	float: none;
+    position: 0 0;
+    float: left;
+    width: 75%;
+    height: 93.5vh;
 }
 
 main iframe {
-	/*float: none;*/
-	height: 93.75vh;
-	overflow: hidden;
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    margin: 2vh;
+}
+
+article h1 {
+    font-size: 3.125vh;
+}
+
+article h2 {
+    font-size: 2.0833333333333335vh;
+}
+
+article p {
+    font-size: 1.5625vh;
 }

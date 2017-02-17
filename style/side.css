@@ -1,34 +1,32 @@
-
 #shortcuts {
-/*position:relative;*/
-float: left;
+    float: left;
+    width: 12.5%
 }
+
 #contacts {
-	position: 0 0;
-float: right;
+    width: 12.5%;
+    position: 0 0;
+    float: right;
 }
-
-
 
 aside {
-    font-size: 3.125vh;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    font-size: 2.7777777777777777vh;
 }
 
 aside img {
-    height: 3.125vh;
+    height: 2.7777777777777777vh;
     margin: 1.5625vh 1.5625vh;
 }
 
 aside ul {
+    height: 94vh;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #E9EBEE;
 }
-
-
 
 aside li a {
     display: block;
@@ -39,8 +37,9 @@ aside li a {
     height: 100%;
 }
 
-/* Change the link color to #111 (black) on hover */
+
+/* Change the link color on hover */
+
 aside li a:hover {
     background-color: #F6F7F9;
 }
-

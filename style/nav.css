@@ -1,7 +1,5 @@
-
-.navigation {
-    font-size: 3.125vh;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+#nav--container {
+    /*overflow: hidden;*/
 }
 
 .navigation img {
@@ -16,7 +14,6 @@
     overflow: hidden;
 }
 
-
 .navigation li a {
     display: block;
     text-align: center;
@@ -24,15 +21,15 @@
     text-decoration: none;
     height: 100%;
 }
+
 #menu {
     list-style-type: none;
+    display: inline;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
-#menu li {
-    float: left;
-}
+
 
 
 nav ul {
@@ -40,21 +37,18 @@ nav ul {
 }
 
 nav li a {
-        color: white;
+    color: white;
 }
 
 nav li a:hover {
     background-color: #355089;
 }
 
-
-
 aside ul {
     background-color: #E9EBEE;
-    height: 96vh;
+    height: 100%;
 }
 
 aside li a:hover {
     background-color: #F6F7F9;
 }
-

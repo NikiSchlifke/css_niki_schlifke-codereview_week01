@@ -1,8 +1,11 @@
+/*left bar*/
+
 #shortcuts {
     float: left;
     width: 12.5%
 }
 
+/*right bar*/
 #contacts {
     width: 12.5%;
     position: 0 0;

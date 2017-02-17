@@ -1,3 +1,4 @@
+/*navigation are top, left and right bar*/
 #navigation {
     overflow: hidden;
 }
@@ -22,7 +23,7 @@
 }
 
 
-
+/*specific setting for nav and aside*/
 nav ul {
     background-color: #3B5998;
 }

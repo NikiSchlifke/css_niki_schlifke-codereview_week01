@@ -1,5 +1,5 @@
-#nav--container {
-    /*overflow: hidden;*/
+#navigation {
+    overflow: hidden;
 }
 
 .navigation img {
@@ -19,15 +19,6 @@
     text-align: center;
     padding: 1.5625vh 1.5625vh;
     text-decoration: none;
-    height: 100%;
-}
-
-#menu {
-    list-style-type: none;
-    display: inline;
-    margin: 0;
-    padding: 0;
-    /*overflow: hidden;*/
 }
 
 

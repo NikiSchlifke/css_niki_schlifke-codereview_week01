@@ -1,3 +1,26 @@
+#nav--container {
+
+}
+
+#menu {
+    height: 6.25vh;
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+}
+
+#menu li form {
+    padding: 0.78125vh 1.5625vh;
+}
+
+#menu li form input {
+    font-size: 3.125vh;
+    border-width: 0;
+    padding: 0.78125vh 1.5625vh;
+}
+
 #menu {
     font-size: 3.125vh;
 }
